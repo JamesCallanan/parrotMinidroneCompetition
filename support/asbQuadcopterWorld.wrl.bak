@@ -1,7 +1,7 @@
 #VRML V2.0 utf8
 
 DEF AHMap Transform {
-  translation 100 -0.1 100
+  translation 50.67 -0.1 62.48
   rotation 0 1 0 -1.57
   children Group {
     children Inline {
@@ -10,7 +10,7 @@ DEF AHMap Transform {
   }
 }
 DEF QuadBody Transform {
-  translation 65 0 97
+  translation 57 0.001765 95
   scaleOrientation 0 1 0 0
   children [
     DEF Airframe Transform {
@@ -66,10 +66,9 @@ DEF OnQuadNoRotation Viewpoint {
   position 53 1.00177 95
   orientation 0 -1 -0 1.57
 }
+# Copyright 2017-2018 The MathWorks, Inc.
 DEF TrackSection1 Transform {
-  center 0 0 0
-  rotation 0 1 0 1.176080760839561
-  translation 57.11237204959718 -0.02 94.7302496772849
+  translation 57.7 -0.02 95
   children Shape {
     appearance Appearance {
       material Material {
@@ -77,13 +76,13 @@ DEF TrackSection1 Transform {
       }
     }
     geometry Box {
-      size 0.5844406356015013 0.001 0.1
+      size 1.5 0.001 0.1
     }
   }
-}DEF TrackSection2 Transform {
-  center 0 0 0
-  rotation 0 1 0 0.12258390622108761
-  translation 57.94503551775336 -0.02 94.37175827436322
+}
+# Copyright 2017 The MathWorks, Inc.
+DEF TrackSection2 Transform {
+  translation 58.4 -0.02 95.925
   children Shape {
     appearance Appearance {
       material Material {
@@ -91,39 +90,13 @@ DEF TrackSection1 Transform {
       }
     }
     geometry Box {
-      size 1.4514747079656356 0.001 0.1
+      size 0.1 0.001 2
     }
   }
-}DEF TrackSection3 Transform {
-  center 0 0 0
-  rotation 0 1 0 -0.06460963677073539
-  translation 59.101504051976754 -0.02 94.31123771806669
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 0.8741781836652266 0.001 0.1
-    }
-  }
-}DEF TrackSection4 Transform {
-  center 0 0 0
-  rotation 0 1 0 0.282572545551538
-  translation 59.850427190493 -0.02 94.2486550435768
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 0.6513226409370891 0.001 0.1
-    }
-  }
-}DEF Circle Transform {
-  translation 60.40325854371346 -0.02 94.08814507260918
+}
+# Copyright 2017 The MathWorks, Inc.
+DEF TrackSection3 Transform {
+  translation 58.4 -0.02 97.1
   children Shape {
     appearance Appearance {
       material Material {
@@ -133,6 +106,20 @@ DEF TrackSection1 Transform {
     geometry Cylinder {
       radius 0.1
       height 0.001
+    }
+  }
+}
+# Copyright 2017 The MathWorks, Inc.
+DEF BlueMarker Transform {
+  translation 57 -0.02 96.3
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 0 0 1
+      }
+    }
+    geometry Box {
+      size 0.2 0.01 0.2
     }
   }
 }
