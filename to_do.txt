@@ -1,0 +1,4 @@
+simulation time doesnt appear to be working - always the same value
+hence average speed is off too
+
+need to write successful tracks to one folder and unsuccessful to another
