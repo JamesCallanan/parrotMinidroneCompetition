@@ -68,8 +68,8 @@ DEF OnQuadNoRotation Viewpoint {
 }
 DEF TrackSection1 Transform {
   center 0 0 0
-  rotation 0 1 0 0.49756845865294475
-  translation 57.36321265877833 -0.02 94.80272124565367
+  rotation 0 1 0 -1.3915743089702937
+  translation 57.076478848919145 -0.02 95.42214814846
   children Shape {
     appearance Appearance {
       material Material {
@@ -77,13 +77,13 @@ DEF TrackSection1 Transform {
       }
     }
     geometry Box {
-      size 0.8266615810917132 0.001 0.1
+      size 0.8580397976322456 0.001 0.1
     }
   }
 }DEF TrackSection2 Transform {
   center 0 0 0
-  rotation 0 1 0 0.9877486715761408
-  translation 57.80905974257451 -0.02 94.48015016802063
+  rotation 0 1 0 -1.2893727611223276
+  translation 57.30845666846597 -0.02 96.38217590916064
   children Shape {
     appearance Appearance {
       material Material {
@@ -91,13 +91,13 @@ DEF TrackSection1 Transform {
       }
     }
     geometry Box {
-      size 0.3001773773795382 0.001 0.1
+      size 1.1198114254291536 0.001 0.1
     }
   }
 }DEF TrackSection3 Transform {
   center 0 0 0
-  rotation 0 1 0 0.6507879190629016
-  translation 58.32979589922331 -0.02 94.02126597755895
+  rotation 0 1 0 -2.842990247578797
+  translation 56.88724085874953 -0.02 97.09757155008188
   children Shape {
     appearance Appearance {
       material Material {
@@ -105,13 +105,13 @@ DEF TrackSection1 Transform {
       }
     }
     geometry Box {
-      size 1.1013022493454114 0.001 0.1
+      size 1.2068336725595696 0.001 0.1
     }
   }
 }DEF TrackSection4 Transform {
   center 0 0 0
-  rotation 0 1 0 -0.5652698263143621
-  translation 59.16678928368368 -0.02 93.94069713017873
+  rotation 0 1 0 -4.005886433131698
+  translation 56.087494780205404 -0.02 97.01376326094802
   children Shape {
     appearance Appearance {
       material Material {
@@ -119,13 +119,13 @@ DEF TrackSection1 Transform {
       }
     }
     geometry Box {
-      size 0.9447437731851531 0.001 0.1
+      size 0.6871196666024504 0.001 0.1
     }
   }
 }DEF TrackSection5 Transform {
   center 0 0 0
-  rotation 0 1 0 -0.513479026757893
-  translation 60.04109970839947 -0.02 94.46182552649695
+  rotation 0 1 0 -5.308894663785415
+  translation 56.10203918464241 -0.02 96.40255826560214
   children Shape {
     appearance Appearance {
       material Material {
@@ -133,13 +133,13 @@ DEF TrackSection1 Transform {
       }
     }
     geometry Box {
-      size 1.0916107393805805 0.001 0.1
+      size 0.8458337968970374 0.001 0.1
     }
   }
 }DEF TrackSection6 Transform {
   center 0 0 0
-  rotation 0 1 0 0.9227761001139503
-  translation 60.594289886105386 -0.02 94.62720612718111
+  rotation 0 1 0 -6.859066377655088
+  translation 56.64675803400044 -0.02 96.25210480306245
   children Shape {
     appearance Appearance {
       material Material {
@@ -147,13 +147,13 @@ DEF TrackSection1 Transform {
       }
     }
     geometry Box {
-      size 0.25768795962856755 0.001 0.1
+      size 0.7324155286640514 0.001 0.1
     }
   }
 }DEF TrackSection7 Transform {
   center 0 0 0
-  rotation 0 1 0 0.7926097630378037
-  translation 61.08146858296918 -0.02 94.10912609993044
+  rotation 0 1 0 -8.362999524155025
+  translation 56.63060888852938 -0.02 97.03083618342139
   children Shape {
     appearance Appearance {
       material Material {
@@ -161,13 +161,13 @@ DEF TrackSection1 Transform {
       }
     }
     geometry Box {
-      size 1.1664207042661663 0.001 0.1
+      size 1.326817579326719 0.001 0.1
     }
   }
 }DEF TrackSection8 Transform {
   center 0 0 0
-  rotation 0 1 0 0.43085110419958106
-  translation 61.823093574690574 -0.02 93.5410664688977
+  rotation 0 1 0 -9.834830469373605
+  translation 55.865352943072516 -0.02 97.41802156237468
   children Shape {
     appearance Appearance {
       material Material {
@@ -175,13 +175,13 @@ DEF TrackSection1 Transform {
       }
     }
     geometry Box {
-      size 0.7312652820933204 0.001 0.1
+      size 0.9638288206943998 0.001 0.1
     }
   }
 }DEF TrackSection9 Transform {
   center 0 0 0
-  rotation 0 1 0 -1.01354161108496
-  translation 62.4353109191055 -0.02 93.83770470495088
+  rotation 0 1 0 -9.440502048897072
+  translation 55.13594987747356 -0.02 97.22138268077714
   children Shape {
     appearance Appearance {
       material Material {
@@ -189,11 +189,11 @@ DEF TrackSection1 Transform {
       }
     }
     geometry Box {
-      size 1.0588835379862105 0.001 0.1
+      size 0.5749499005078365 0.001 0.1
     }
   }
 }DEF Circle Transform {
-  translation 62.84752512360144 -0.02 94.49922486402608
+  translation 54.598541370371024 -0.02 97.21293172554844
   children Shape {
     appearance Appearance {
       material Material {
