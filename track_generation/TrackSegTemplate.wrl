@@ -1,0 +1,15 @@
+DEF TrackSection{{segment_no}} Transform {
+  center 0 0 0
+  rotation 0 1 0 {{rotation_angle}}
+  translation {{x_translation}} -0.02 {{y_translation}}
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size {{segment_length}} 0.001 {{segment_width}}
+    }
+  }
+}

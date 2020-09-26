@@ -1,0 +1,14 @@
+DEF Circle Transform {
+  translation {{x_translation}} -0.02 {{y_translation}}
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Cylinder {
+      radius {{radius}}
+      height 0.001
+    }
+  }
+}
