@@ -1,0 +1,166 @@
+#VRML V2.0 utf8
+
+DEF AHMap Transform {
+  translation 100 -0.1 100
+  rotation 0 1 0 -1.57
+  children Group {
+    children Inline {
+      url "asbQuadcopterAHBase.wrl" 
+    }
+  }
+}
+DEF QuadBody Transform {
+  translation 65 0 97
+  scaleOrientation 0 1 0 0
+  children [
+    DEF Airframe Transform {
+      scaleOrientation 1 0 0 0
+      rotation 0 1 0 0
+      children Inline {
+        url "asbQuadcopterBody.wrl" 
+      }
+    }
+    DEF Blade1 Transform {
+      translation 0.0425 0.015 -0.0425
+      children Inline {
+        url "asbQuadcopterBladeCW.wrl" 
+      }
+    }
+    DEF Blade3 Transform {
+      translation -0.0425 0.015 0.0425
+      children Inline {
+        url "asbQuadcopterBladeCW.wrl" 
+      }
+    }
+    DEF Blade2 Transform {
+      translation -0.0425 0.015 -0.0425
+      children Inline {
+        url "asbQuadcopterBladeCCW.wrl" 
+      }
+    }
+    DEF Blade4 Transform {
+      translation 0.0425 0.015 0.0425
+      children Inline {
+        url "asbQuadcopterBladeCCW.wrl" 
+      }
+    }
+    DEF Camera Viewpoint {
+      description "Quadcopter Camera"
+      position 0 -0.1 0
+      orientation 1 0 0 -1.57
+    }
+    DEF OnQuad Viewpoint {
+      description "Chase"
+      position -1 0.25 0
+      orientation 0 1 0 -1.57
+    }
+  ]
+}
+DEF IsoNoRotation Viewpoint {
+  description "Isometric - No Rotation"
+  position 57.9009 0.670747 95.99
+  orientation -0.46727 0.858698 0.210466 0.847752
+}
+DEF OnQuadNoRotation Viewpoint {
+  description "Chase - No Rotation"
+  position 53 1.00177 95
+  orientation 0 -1 -0 1.57
+}
+DEF TrackSection1 Transform {
+  center 0 0 0
+  rotation 0 1 0 0.7835678898338578
+  translation 57.152085392387946 -0.02 94.84847030689704
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 0.4293772908278782 0.001 0.1
+    }
+  }
+}DEF TrackSection2 Transform {
+  center 0 0 0
+  rotation 0 1 0 1.394168673613398
+  translation 57.34846659995851 -0.02 94.44876759857512
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 0.5041903002857832 0.001 0.1
+    }
+  }
+}DEF TrackSection3 Transform {
+  center 0 0 0
+  rotation 0 1 0 1.9994710481148856
+  translation 57.162572118164945 -0.02 93.6969157062165
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 1.1075738965841466 0.001 0.1
+    }
+  }
+}DEF TrackSection4 Transform {
+  center 0 0 0
+  rotation 0 1 0 1.303377930109034
+  translation 57.011206328563524 -0.02 92.9055359564852
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 0.5966073920188331 0.001 0.1
+    }
+  }
+}DEF TrackSection5 Transform {
+  center 0 0 0
+  rotation 0 1 0 -0.211248258944158
+  translation 57.65490182020584 -0.02 92.73897040077699
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 1.1554271831038876 0.001 0.1
+    }
+  }
+}DEF TrackSection6 Transform {
+  center 0 0 0
+  rotation 0 1 0 0.5884402281319101
+  translation 58.45609843220185 -0.02 92.70240586837333
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 0.5682219453221691 0.001 0.1
+    }
+  }
+}DEF Circle Transform {
+  translation 58.900375925987206 -0.02 92.40593995189596
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Cylinder {
+      radius 0.1
+      height 0.001
+    }
+  }
+}
